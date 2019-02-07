@@ -1,8 +1,23 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
+// Practice: Contact List
+// Build four components:
 
-sayHello()
-sayGoodbye()
+// 1. A ContactCollection component that loads existing contacts from storage, and saves new ones. Each new contact should have an auto-generated identifier.
+// 2. A Contact component that displays a person's name, phone number, and address.
+// 3. A ContactList component that displays all contacts. It should import the Contact component and the ContactCollection component.
+// 4. A ContactForm component that, when filled out and a submit button is pressed, adds a new contact to storage. It should import the ContactCollection component.
 
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+// In main.js, import the ContactList component and the ContactForm component.
+
+// The user should see the contact form at the top of the view, and the list of contacts underneath it.
+
+// Bonus: Are there any other modules that could be made? Do any modules have more than one possible responsibility? Perhaps something that is a general utility function.
+
+
+import ContactList from "./ContactList"
+import ContactForm from "./ContactForm"
+
+let button = document.querySelector("#addButton")
+
+button.addEventListener("click", ContactForm)
+
+ContactList()
