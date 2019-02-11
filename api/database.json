@@ -1,24 +1,6 @@
 {
   "contacts": [
     {
-      "id": 1,
-      "name": "Mo",
-      "phone": "732-8187",
-      "email": "mo@mosplace.org"
-    },
-    {
-      "name": "Glynnis",
-      "phone": "307-1736",
-      "email": "gtoconnell@gmail.com",
-      "id": 2
-    },
-    {
-      "name": "Heidi",
-      "phone": "888-1284",
-      "email": "heidifay@gmail.com",
-      "id": 3
-    },
-    {
       "name": "Juju Tapir",
       "phone": "123-BEST",
       "email": "juju@imatapir.com",
