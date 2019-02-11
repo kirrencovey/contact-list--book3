@@ -1,6 +1,6 @@
 const Contact = (contactObject) => {
     return `
-        <section id="${contactObject.id}">
+        <section id="${contactObject.id}" class="contactCard">
             <h3>${contactObject.name}</h3>
             <div>${contactObject.phone}</div>
             <div>${contactObject.email}</div>

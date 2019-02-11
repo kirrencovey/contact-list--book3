@@ -1,0 +1,13 @@
+#contactList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.contactCard {
+    border: 1px solid darkblue;
+    flex-basis: 25%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
