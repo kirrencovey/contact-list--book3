@@ -1,9 +1,10 @@
 const Contact = (contactObject) => {
     return `
-        <section>
+        <section id="${contactObject.id}">
             <h3>${contactObject.name}</h3>
             <div>${contactObject.phone}</div>
             <div>${contactObject.email}</div>
+            <button id="delete--${contactObject.id}">Delete Contact</button>
         </section>
     `
 }

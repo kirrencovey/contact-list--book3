@@ -15,9 +15,9 @@
 
 import ContactList from "./ContactList"
 import ContactForm from "./ContactForm"
+import DeleteContact from "./DeleteContact"
 
-let button = document.querySelector("#addButton")
 
-button.addEventListener("click", ContactForm)
-
+ContactForm()
 ContactList()
+DeleteContact()

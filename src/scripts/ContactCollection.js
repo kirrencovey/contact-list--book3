@@ -11,7 +11,13 @@ const ContactCollection = {
             },
             body: JSON.stringify(newContact)
     })
-    }
+    },
+    deleteContact: (contactId) => {
+        return fetch(`http://127.0.0.1:8088/contacts/${contactId}`, {
+                method: "DELETE"
+        })
+
+  }
 }
 
 export default ContactCollection
