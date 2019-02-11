@@ -1,0 +1,58 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Mo",
+      "phone": "732-8187",
+      "email": "mo@mosplace.org"
+    },
+    {
+      "name": "Glynnis",
+      "phone": "307-1736",
+      "email": "gtoconnell@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Heidi",
+      "phone": "888-1284",
+      "email": "heidifay@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Juju Tapir",
+      "phone": "123-BEST",
+      "email": "juju@imatapir.com",
+      "id": 4
+    },
+    {
+      "name": "Kwasi Okapi",
+      "phone": "787-CUTE",
+      "email": "handsome&dumb@wut.org",
+      "id": 6
+    },
+    {
+      "name": "Carol Pudu",
+      "phone": "555-IMQUEEN",
+      "email": "queencarol@pudusrus.com",
+      "id": 7
+    },
+    {
+      "name": "Damani Giraffe",
+      "phone": "313-TALL",
+      "email": "damani-monster@giraffetower.com",
+      "id": 8
+    },
+    {
+      "name": "Jade & Pearl Duiker",
+      "phone": "none",
+      "email": "duikergals@supershy.com",
+      "id": 9
+    },
+    {
+      "name": "Charlotte & Porkchop Hog",
+      "phone": "787-RED-PIGS",
+      "email": "redriverhogs@mudlovers.net",
+      "id": 10
+    }
+  ]
+}
