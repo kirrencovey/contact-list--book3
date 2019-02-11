@@ -1,4 +1,4 @@
-lib/
+node_modules
 public/*.js
 bower_components
 __pycache__
