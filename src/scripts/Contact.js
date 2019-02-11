@@ -5,6 +5,7 @@ const Contact = (contactObject) => {
             <div>${contactObject.phone}</div>
             <div>${contactObject.email}</div>
             <button id="delete--${contactObject.id}">Delete Contact</button>
+            <button id="edit--${contactObject.id}">Edit Contact</button>
         </section>
     `
 }

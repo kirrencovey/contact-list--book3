@@ -15,9 +15,9 @@
 
 import ContactList from "./ContactList"
 import ContactForm from "./ContactForm"
-import DeleteContact from "./DeleteContact"
+import ChangeContact from "./ChangeContact"
 
 
 ContactForm()
 ContactList()
-DeleteContact()
+ChangeContact()

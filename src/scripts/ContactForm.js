@@ -6,13 +6,23 @@ const ContactForm = () => {
         const name = document.querySelector("#name").value
         const phone = document.querySelector("#phone").value
         const email = document.querySelector("#email").value
+        const contactId = document.querySelector("#contactId").value
 
         let newContact = {
             name: name,
             phone: phone,
             email: email
         }
-        ContactCollection.post(newContact)
+
+        if (button.textContent === "Add Contact") {
+            ContactCollection.post(newContact)
+
+        } else if (button.textContent === "Update Contact"){
+            ContactCollection.editContact(newContact, contactId)
+        }
+
+
+
     })
 }
 
